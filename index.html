@@ -1,90 +1,92 @@
 <!DOCTYPE html>
 
 <html>
-    <style>
-        body{
-            background-color: rgb(238, 157, 143);
-            text-align: center;
-            margin:0 auto;
-            text-emphasis-color: rgb(104, 18, 9);
-        }
-        p{
-            color:mistyrose;
-            text-align:inherit;
-            font-family:'Courier New';
-            
-        }
-        #content{
-          width: "300";
-          height: "400";
-          padding: 35px;
-        }
-        #heading1{
-          padding: 10px;
-        }
-        #heading2{
-          padding: 5px;
-        }
-    </style>
-
+    
 <head>
     <title>Aqilla Katrita</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<style>
+  body{
+      background-color: rgb(238, 157, 143);
+      text-align: center;
+      margin:0 auto;
+      text-emphasis-color: rgb(104, 18, 9);
+  }
+  p{
+      color:mistyrose;  
+      text-align:inherit;
+      font-family:'Courier New';
+      
+  }
+  #content{
+    width: "300";
+    height: "400";
+    padding: 35px;
+  }
+  #heading1{
+    padding: 10px;
+    font-family:'Bodoni';
+  }
+  #heading2{
+    padding: 5px;
+    font-family: 'Bodoni';
+  }
+</style>
 
-
-    <nav class="navbar navbar-light" style="background-color: #ffe4e1;">  
-      <a class="navbar-brand" href="#">navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-    
-    
-    
-    
-    <div id="heading1" class="kotak" style="background-color: #ffe4e1; text-align:center;">
-        <h1>Hi, Welcome to my Website!</h1>
-    </div>
 </head>
 
 <body>
     
     
+  <nav class="navbar navbar-light" style="background-color: #ffe4e1;" >  
+    <a class="navbar-brand" href="#" font-family='Bodoni'>Aqilla Katrita</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div id="heading1" class="kotak" style="background-color: #ffe4e1; text-align:center;">
+    <h1><strong>Hi, Welcome to my Website!</strong></h1>
+</div>
+  
     <img src= "IMG_4805.jpg"
     alt="Aqilla Katrita Zaira Nugroho"
     width= "200"
     >
     </div>
     <div id="heading2" class="kotak" style="background-color: #ffe4e1; text-align:center;">
-        <h1>Thankyou for visiting my website,</h1>
+        <h2><strong>Thankyou for visiting my website.</strong></h2>
     </div>
     </div>
     <div id= "content" class="kotak" style="background-color: rgb(0, 0, 0); text-align:center;">
@@ -97,44 +99,15 @@
         <p>                                                                             </p>
     </div>
 
-    
+    <nav aria-label="breadcrumb" style="padding: 10px; background-color: mistyrose;">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
 
-
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Fave Colour</th>
-        </tr>
-        <tr>
-            <th>Rayssa Eka</th>
-            <th>15</th>
-            <th>Blue</th>
-        </tr>
-        <tr>
-            <th>Aqilla Katrita</th>
-            <th>14</th>
-            <th>Green</th>
-        </tr>
-        <tr>
-            <th>Ammara Saskaradevi</th>
-            <th>15</th>
-            <th>Yellow</th>
-        </tr>
-    </table>
-
-
-
-
-
-<h2>My Fave foods</h2>
-<ul>
-<li>Seblak</li>
-<li>Rawon</li>
-<li>Calzone</li>
-</ul>
-
-<button><a href= "https://www.w3schools.com/tags/">Click Me!</a></button>
-
+<button type="button" class="btn btn-light"><a href= "https://www.w3schools.com/tags/">More HTML Tags</a></button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
 </body>
 </html>
